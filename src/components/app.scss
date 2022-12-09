@@ -9,6 +9,8 @@
     top: 70px;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //for fire fox
+    scroll-behavior: smooth;
+
     &::-webkit-scrollbar {
       display: none;
     }

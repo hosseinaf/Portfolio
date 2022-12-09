@@ -7,10 +7,16 @@
     height: calc(100vh - 70px);
     position: relative;
     top: 70px;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for fire fox
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     > * {
       width: 100%;
       height: calc(100vh - 70px);
+      scroll-snap-align: start;
     }
   }
 }

@@ -4,8 +4,8 @@ import { MdOutlinePersonOutline, MdOutlineMail } from "react-icons/md";
 import { IconContext } from "react-icons";
 export default function Topbar() {
   return (
-    <div className="topbar">
-      <div className="wrapper">
+    <div className="topbar active">
+      <div className="wrapper ">
         <IconContext.Provider value={{ color: "", size: "" }}>
           <div className="left">
             <a href="#intro" className="icon">

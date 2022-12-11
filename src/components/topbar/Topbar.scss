@@ -8,6 +8,7 @@
   top: 0;
   z-index: 2;
   scroll-behavior: smooth;
+  transition: all 1s ease;
 
   .wrapper {
     display: flex;

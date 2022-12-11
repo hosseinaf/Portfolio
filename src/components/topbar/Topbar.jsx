@@ -2,7 +2,7 @@ import "./topbar.scss";
 import { MdOutlinePersonOutline, MdOutlineMail } from "react-icons/md";
 
 import { IconContext } from "react-icons";
-export default function Topbar() {
+export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className="topbar active">
       <div className="wrapper ">
@@ -23,7 +23,7 @@ export default function Topbar() {
           </div>
 
           <div className="right">
-            <div className="hamberger">
+            <div className="hamberger" onClick={() => setMenuOpen(!menuOpen)}>
               <span className="line1"></span>
               <span className="line2"></span>
               <span className="line3"></span>

@@ -6,7 +6,7 @@
   color: $mainColor;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 4;
   scroll-behavior: smooth;
   transition: all 1s ease;
 
@@ -31,7 +31,7 @@
         align-items: center;
         margin-left: 30px;
         .materialIcon {
-          font-size: 18px;
+          font-size: 20px;
           margin-right: 5px;
         }
         span {
